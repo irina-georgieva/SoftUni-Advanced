@@ -10,10 +10,15 @@ namespace P01_Even_Lines
     {
         static void Main(string[] args)
         {
+            
+        }
+
+        private static void ZipAndExtract()
+        {
             string sourceDirectory = @"C:\Users\Irina\Desktop\myFolder";
             string targetDirectory = @"C:\Users\Irina\Desktop\result2.zip";
             string destinationDirectory = @"C:\Users\Irina\Desktop\result";
-            
+
             ZipFile.CreateFromDirectory(sourceDirectory, targetDirectory);
             ZipFile.ExtractToDirectory(targetDirectory, destinationDirectory);
         }
@@ -50,7 +55,7 @@ namespace P01_Even_Lines
                 }
             }
             string path = Environment.GetFolderPath
-                (Environment.SpecialFolder.Desktop) + "/report.txt";
+                (Environment.SpecialFolder.Desktop) + "/reportI.txt";
             File.WriteAllLines(path, lines);
         }
 
@@ -82,7 +87,7 @@ namespace P01_Even_Lines
 
             foreach (var item in wordLines)
             {
-                if (wordsCount.ContainsKey(item))
+                if (!wordsCount.ContainsKey(item))
                 {
                     wordsCount.Add(item, 0);
                 }
