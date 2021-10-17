@@ -21,6 +21,7 @@ namespace EqualityLogic
 
         public int CompareTo([AllowNull] Person other)
         {
+
             int result = Name.CompareTo(other.Name);
             if (result == 0)
             {
