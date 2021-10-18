@@ -44,10 +44,11 @@ namespace DefiningClasses
             {
                 return age;
             }
-            set
+            private set
             {
                 age = value;
             }
         }
     }
 }
+ 
