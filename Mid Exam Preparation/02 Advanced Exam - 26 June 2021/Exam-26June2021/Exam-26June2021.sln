@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masterchef", "Masterchef\Masterchef.csproj", "{4937D83A-727D-4102-AD35-144DAA7F7B68}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Survivor", "Survivor\Survivor.csproj", "{D74D14F3-B79B-46E8-BBE5-0AF073F62F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiRental", "SkiRental\SkiRental.csproj", "{9E956E66-A27D-4551-AAE1-A79CFB817219}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4937D83A-727D-4102-AD35-144DAA7F7B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4937D83A-727D-4102-AD35-144DAA7F7B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4937D83A-727D-4102-AD35-144DAA7F7B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4937D83A-727D-4102-AD35-144DAA7F7B68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74D14F3-B79B-46E8-BBE5-0AF073F62F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74D14F3-B79B-46E8-BBE5-0AF073F62F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74D14F3-B79B-46E8-BBE5-0AF073F62F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74D14F3-B79B-46E8-BBE5-0AF073F62F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E956E66-A27D-4551-AAE1-A79CFB817219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E956E66-A27D-4551-AAE1-A79CFB817219}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E956E66-A27D-4551-AAE1-A79CFB817219}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E956E66-A27D-4551-AAE1-A79CFB817219}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BFF69BE-0439-4EBD-B0EA-07D00EDAB804}
+	EndGlobalSection
+EndGlobal
